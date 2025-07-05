@@ -16,8 +16,8 @@ Steps:
         --build-arg BUILD_ENV=amd64 \
         --build-arg HOSTDIR \
         --build-arg CONTAINERDIR \
-        --build-arg UNAME=slashh \
-        --build-arg UPASS=slashh \
+        --build-arg UNAME=user \
+        --build-arg UPASS=theuserpass \
         .
 
 3. Create container
